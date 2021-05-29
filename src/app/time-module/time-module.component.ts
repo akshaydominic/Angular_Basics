@@ -10,7 +10,9 @@ export class TimeModuleComponent implements OnInit {
   t1:string = new Date().toLocaleTimeString();
   timeupdate:string = new Date().toDateString();
 
-  constructor() { }
+  constructor() { 
+
+  }
 
   ngOnInit(): void {
   }
